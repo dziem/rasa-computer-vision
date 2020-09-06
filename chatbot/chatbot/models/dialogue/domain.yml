@@ -1,0 +1,41 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_image
+- utter_greet
+- utter_thanks
+- utter_unclear
+- action_baca_gambar
+- action_scan_gambar
+config:
+  store_entities_as_slots: true
+entities:
+- person
+- image
+forms: []
+intents:
+- greet:
+    use_entities: true
+- ask_help_baca_gambar:
+    use_entities: true
+- ask_help_scan_gambar:
+    use_entities: true
+- thanks:
+    use_entities: true
+- inform_image:
+    use_entities: true
+slots:
+  image:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_image:
+  - text: Gambarnya mana?
+  - text: Gambarnya?
+  utter_greet:
+  - text: Ola
+  utter_thanks:
+  - text: Cheers mate
+  utter_unclear:
+  - text: Saya tidak mengerti

@@ -1,0 +1,361 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hai"
+      },
+      {
+        "intent": "greet",
+        "text": "oy"
+      },
+      {
+        "intent": "greet",
+        "text": "pagi"
+      },
+      {
+        "intent": "greet",
+        "text": "siang"
+      },
+      {
+        "intent": "greet",
+        "text": "sore"
+      },
+      {
+        "intent": "greet",
+        "text": "malam"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat pagi"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat siang"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat sore"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat malam"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "Jacob",
+            "entity": "person"
+          }
+        ],
+        "text": "nama saya Jacob"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Jason",
+            "entity": "person"
+          }
+        ],
+        "text": "saya Jason"
+      },
+      {
+        "intent": "greet",
+        "text": "halo"
+      },
+      {
+        "intent": "ask_help_baca_gambar",
+        "text": "minta tolong baca gambar ini dong"
+      },
+      {
+        "intent": "ask_help_baca_gambar",
+        "text": "baca gambar"
+      },
+      {
+        "intent": "ask_help_baca_gambar",
+        "text": "baca gambar ini"
+      },
+      {
+        "intent": "ask_help_scan_gambar",
+        "text": "minta tolong scan gambar ini dong"
+      },
+      {
+        "intent": "ask_help_scan_gambar",
+        "text": "scan gambar"
+      },
+      {
+        "intent": "ask_help_scan_gambar",
+        "text": "scan gambar ini"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "makasih"
+      },
+      {
+        "intent": "thanks",
+        "text": "terima kasih"
+      },
+      {
+        "intent": "thanks",
+        "text": "nuhun"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers"
+      },
+      {
+        "intent": "thanks",
+        "text": "makasih ya"
+      },
+      {
+        "intent": "thanks",
+        "text": "oke"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "gambar.png",
+            "entity": "image"
+          }
+        ],
+        "text": "gambar.png"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "image.png",
+            "entity": "image"
+          }
+        ],
+        "text": "image.png"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "gambar.jpg",
+            "entity": "image"
+          }
+        ],
+        "text": "gambar.jpg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "image.jpg",
+            "entity": "image"
+          }
+        ],
+        "text": "image.jpg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "image.jpeg",
+            "entity": "image"
+          }
+        ],
+        "text": "image.jpeg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "gambar.jpeg",
+            "entity": "image"
+          }
+        ],
+        "text": "gambar.jpeg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": ".png",
+            "entity": "image"
+          }
+        ],
+        "text": ".png"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": ".jpg",
+            "entity": "image"
+          }
+        ],
+        "text": ".jpg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": ".jpeg",
+            "entity": "image"
+          }
+        ],
+        "text": ".jpeg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "image18751561446661.png",
+            "entity": "image"
+          }
+        ],
+        "text": "image18751561446661.png"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "image18751561446661.jpeg",
+            "entity": "image"
+          }
+        ],
+        "text": "image18751561446661.jpeg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "image18751561446661.jpg",
+            "entity": "image"
+          }
+        ],
+        "text": "image18751561446661.jpg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "image82591561423461.png",
+            "entity": "image"
+          }
+        ],
+        "text": "image82591561423461.png"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "image82591561423461.jpeg",
+            "entity": "image"
+          }
+        ],
+        "text": "image82591561423461.jpeg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "image82591561423461.jpg",
+            "entity": "image"
+          }
+        ],
+        "text": "image82591561423461.jpg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "image72046291423356.png",
+            "entity": "image"
+          }
+        ],
+        "text": "image72046291423356.png"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "image72046291423356.jpeg",
+            "entity": "image"
+          }
+        ],
+        "text": "image72046291423356.jpeg"
+      },
+      {
+        "intent": "inform_image",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "image72046291423356.jpg",
+            "entity": "image"
+          }
+        ],
+        "text": "image72046291423356.jpg"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

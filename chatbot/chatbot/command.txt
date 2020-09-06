@@ -1,0 +1,3 @@
+python -m rasa_core_sdk.endpoint --actions action
+
+python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/default/chat_nlu --port 5002 --endpoints endpoints.yml --credentials credentials.yml --cors "*"

@@ -1,0 +1,21 @@
+1. Copy semua folder ke htdocs/www/sejenisnya
+2. Import rasa_api.sql ke phpmyadmin/database
+3. Ubah file db.php di folder login-api sesuai dengan setting db
+4. Install library python:
+   - rasa_nlu[tensorflow]
+   - rasa_core
+   - Image
+   - pytesseract
+   - tensorflow
+   - numpy
+   - scipy
+   - opencv-python
+   - pillow
+   - matplotlib
+   - h5py
+   - keras
+   - ImageAI
+5. Install teserract ocr (https://github.com/tesseract-ocr/tesseract)
+6. Buka chatbot/chatbot, lalu buka file command.txt
+7. Jalankan kedua command di 2 cmd yang berbeda
+8. Buka localhost/chatbot

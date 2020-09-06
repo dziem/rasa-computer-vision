@@ -1,0 +1,41 @@
+slots:
+    image:
+        type: text
+    user_id:
+        type: text
+        initial_value: null
+intents:
+ - greet
+ - cek_auth_two
+ - cek_auth_one
+ - thanks
+ - ask_health
+ - bye_bye
+ - login
+ 
+entities:
+ - person
+ - image
+ - user_id
+ 
+templates:
+    utter_greet:
+     - "Ola"
+     - "Oy"
+    utter_thanks:
+     - "Cheers mate"
+     - "Oke"
+    utter_unclear:
+     - "What do you mean?"
+     - "Saya tidak mengerti"
+    utter_great:
+     - "Fantastic"
+    utter_bye:
+     - "Bye"
+     
+actions:
+ - utter_greet
+ - utter_great
+ - utter_thanks
+ - utter_unclear
+ - utter_bye

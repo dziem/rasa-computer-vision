@@ -1,0 +1,33 @@
+slots:
+    image:
+        type: text
+
+intents:
+ - greet
+ - ask_help_baca_gambar
+ - ask_help_scan_gambar
+ - thanks
+ - inform_image
+ 
+entities:
+ - person
+ - image
+ 
+templates:
+    utter_greet:
+     - "Ola"
+    utter_thanks:
+     - "Cheers mate"
+    utter_ask_image:
+     - "Gambarnya mana?"
+     - "Gambarnya?"
+    utter_unclear:
+     - "Saya tidak mengerti"
+
+actions:
+ - utter_ask_image
+ - utter_greet
+ - utter_thanks
+ - utter_unclear
+ - action_baca_gambar
+ - action_scan_gambar
